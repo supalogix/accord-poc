@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="accord" Version="3.7.0" />
+    <PackageReference Include="accord.io" Version="3.7.0" />
+    <PackageReference Include="accord.machinelearning" Version="3.7.0" />
+  </ItemGroup>
+</Project>

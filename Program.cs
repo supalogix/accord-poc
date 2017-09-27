@@ -43,7 +43,7 @@ namespace dotnetcore
 				NaiveBayes nb = learner.Learn(inputs, outputs);
 
 				// Save and Load model
-				nb.Save(nb, "./naive-bayes.model");
+				nb.Save("./naive-bayes.model");
 				NaiveBayes estimator = NaiveBayes.Load("./naive-bayes.model");
 
 				// Output the model 
